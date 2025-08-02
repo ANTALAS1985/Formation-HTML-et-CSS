@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>les formulaires</h1>
+    <form action="traitement php" method="post">
+        <label for="nom">Nom</label>
+        <input type="text" id="nom" name="nom" required="required"><br><br>
+        
+        <label for="prenom">Prénom</label>
+        <input type="text" id="prenom" name="prenom" required="required"><br><br>
+
+        <label for="Date">Date de naissance</label>
+        <input type="date" name="Date de naissance" id="date"><br><br>
+        
+        <label for="prez">Petite presentation</label>
+        <textarea id="prez" name="presentation"></textarea><br><br>
+
+        Homme ou femme?<br>
+            <input type="radio" name="sexe" id="homme" value="homme" checked="checked">
+            <label for="homme">Un homme</label><br>
+            <input type="radio" name="sexe" id="femme" value="femme">
+            <label for="femme">une femme</label><br><br>
+
+        Quel(s) sport(s) pratiquez vous?<br>
+            <input type="checkbox" name="sport" id="natation" value="natation" checked="checked">
+            <label for="natation">natation</label><br>
+
+            <input type="checkbox" name="sport" id="course" value="course" checked="checked">
+            <label for="course">course à pied</label><br>
+
+            <input type="checkbox" name="sport" id="velo" value="velo">
+            <label for="velo">velo</label><br><br>
+            
+
+        Où habitez vous?
+            <select name="pays" id="">
+                <optgroup label="Europe">
+                    <option value="France">France</option>
+                    <option value="Belgique">Belgique</option>
+                </optgroup>
+
+                <optgroup label="Amerique">
+                    <option value="Canada">Canada</option>
+                </optgroup>
+
+                <optgroup label="Afrique">
+                    <option value="Maroc">Maroc</option>
+                    <option value="Tunisie" selected="selected">Tunisie</option>
+                    <option value="Togo">Togo</option>
+                </optgroup>
+            </select><br><br>
+
+            <label for="Prenom">Prenom</label>
+            <input type="text" name="Prenom" id="prenom" autocomplete="on" placeholder="Ex:Mustapha"><br><br>
+            
+            <label for="nom"  >Entrez votre nom</label>
+            <input type="text" id="nom" name="nom" autofocus="autofocus" placeholder="EX: RAAB"><br><br>
+
+            <label for="nombre">choisissez un chiffre entre  1 à 10</label>
+            <input type="number" id="nombre" min="1" max="10">
+
+
+            <input type="submit" value="Envoyer"><br>
+    </form>
+
+</body>
+</html>
