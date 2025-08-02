@@ -1,0 +1,111 @@
+.flex-container-1{
+    border: 2px solid blue;
+    padding: 10px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+   }
+.flex-container-2{
+    border: 2px solid green;
+    padding: 10px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px; /*pour separer des exercices précédent*/
+}
+.flex-container-3{
+    border: 2px solid orange;
+    padding: 10px;
+    height: 250px;/*plus est grand mieux pour l'allignement*/
+    display: flex;
+    align-items: stretch;
+    margin-top: 20px;
+}
+
+.flex-container-4{
+    border: solid 2px purple;
+    padding: 10px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    margin-top: 20px;
+}
+
+.flex-container-5{
+    border: 2px solid red;
+    padding: 10px;
+    height: 100px;
+    display: flex;
+    margin-top: 20px;
+}
+
+.flex-container-6{
+    border: solid 2px darkcyan;
+    padding: 10px;
+    height: 100px;
+    display: flex;
+    margin-top: 20px;
+}
+
+.flex-container-7{
+    border: 2px solid hotpink;
+    padding: 10px;
+    height: 200px;
+    display: flex;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.item{
+    background-color: lightgray;
+    border: 1 px solid lightgray;
+    padding: 20px;
+    margin: 5px;
+    width: 80px;/*largeur fixe pour les élement*/
+    text-align: center;
+}
+.item-a{
+    width: 200px;
+    flex-basis: 60%;
+}
+
+.item-b{
+   
+    width: 200px;
+    flex-basis: 30%;
+
+
+
+}
+
+.item-c{
+    
+ width: 200px;
+
+}
+
+.item-one{
+    justify-content: center;
+    align-content: center;
+    order: 3;
+
+}
+
+.item-tho{
+    justify-content: center;
+    align-content: center;
+    order: 1;
+
+}
+
+.item-three{
+    justify-content: center;
+    align-content: center;
+    order: 2;
+
+}
+
+.item-special{
+    align-self: center;
+}

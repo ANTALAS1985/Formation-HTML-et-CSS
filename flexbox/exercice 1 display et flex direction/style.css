@@ -1,0 +1,15 @@
+.flex-container-1{
+    border: 2px solid blue;
+    padding: 10px;
+    height: 200px; /*largeur fixe pour les element*/
+    display: flex;
+    flex-direction: row;
+}
+.item{
+    background-color: lightgray;
+    border: 1 px solid lightgray;
+    padding: 20px;
+    margin: 5px;
+    width: 80px;/*largeur fixe pour les élement*/
+    text-align: center;
+}

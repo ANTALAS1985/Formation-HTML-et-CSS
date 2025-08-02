@@ -1,0 +1,41 @@
+.flex-container-1{
+    border: 2px solid blue;
+    padding: 10px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+   }
+.flex-container-2{
+    border: 2px solid green;
+    padding: 10px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px; /*pour separer des exercices précédent*/
+}
+.flex-container-3{
+    border: 2px solid orange;
+    padding: 10px;
+    height: 250px;/*plus est grand mieux pour l'allignement*/
+    display: flex;
+    align-items: stretch;
+    margin-top: 20px;
+}
+
+.flex-container-4{
+    border: solid 2px purple;
+    padding: 10px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    margin-top: 20px;
+}
+.item{
+    background-color: lightgray;
+    border: 1 px solid lightgray;
+    padding: 20px;
+    margin: 5px;
+    width: 80px;/*largeur fixe pour les élement*/
+    text-align: center;
+}

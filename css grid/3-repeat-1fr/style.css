@@ -1,0 +1,45 @@
+.cont{
+    height: 400px;
+    background-color: salmon;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 5px 5px;
+
+}
+
+.box1{
+    background-color: red;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.box2{
+    background-color: blue;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.box3{
+    background-color: violet;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.box4{
+    background-color: brown;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.box5{
+    background-color: orange;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.box6{
+    background-color: pink;
+    border-radius: 10px;
+    padding: 5px;
+}

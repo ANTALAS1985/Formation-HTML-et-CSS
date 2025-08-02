@@ -1,0 +1,24 @@
+.flex-container-1{
+    border: 2px solid blue;
+    padding: 10px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+   }
+.flex-container-2{
+    border: 2px solid green;
+    padding: 10px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px; /*pour separer des exercices précédent*/
+}
+.item{
+    background-color: lightgray;
+    border: 1 px solid lightgray;
+    padding: 20px;
+    margin: 5px;
+    width: 80px;/*largeur fixe pour les élement*/
+    text-align: center;
+}

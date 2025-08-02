@@ -1,0 +1,41 @@
+.cont{
+    height: 400px;
+    background-color: salmon;
+    display: grid;
+    grid-template-rows: 150px 150px;
+    grid-template-columns: 250px 250px 250px;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    grid-gap: 10px 10px;
+
+}
+
+.box1{
+    background-color: red;
+    border-radius: 10px;
+}
+
+.box2{
+    background-color: blue;
+    border-radius: 10px;
+}
+
+.box3{
+    background-color: violet;
+    border-radius: 10px;
+}
+
+.box4{
+    background-color: brown;
+    border-radius: 10px;
+}
+
+.box5{
+    background-color: orange;
+    border-radius: 10px;
+}
+
+.box6{
+    background-color: pink;
+    border-radius: 10px;
+}
